@@ -18,9 +18,19 @@ Print both the values it would be interchanged
 ### Step 6: 
 End the program
 ## PROGRAM:
-
-
-
+```
+#Program to swap two values.
+#Developed by: Koti Sai Sankar
+#RegisterNumber: 22001315
+num1=float(input())
+num2=float(input())
+temp=num1
+num1=num2
+num2=temp
+print("Swapped values are:",num1,num2)
+```
+## OUTPUT:
+!["Output"](/Screenshot%20from%202022-12-24%2022-55-04.png)
 ## RESULT:
 Thus the swapping of two values are successfully executed
 
